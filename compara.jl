@@ -9,7 +9,7 @@ include("problemas.jl")
 
 function compara()
   # Colocar aqui a lista de métodos
-  metodos = [newton, secante, bisseccao]
+  metodos = [newton, secante, bisseccao,BissecEconomica]
 
   data = Dict{Symbol,DataFrame}()
   for mtd in metodos
